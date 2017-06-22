@@ -1,0 +1,1099 @@
+﻿Log file open, 06/18/17 20:15:21
+LogInit:Display: Running engine for game: CubeFarmBP
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-411906909) SRandInit(-411906909).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.143532
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.19-03.15.22:208][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-03.15.22:208][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.19-03.15.22:227][  0]LogInit: Computer: WINDOWS-SA0EBVQ
+[2017.06.19-03.15.22:227][  0]LogInit: User: Teresa
+[2017.06.19-03.15.22:227][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.06.19-03.15.22:227][  0]LogInit: High frequency timer resolution =2.143474 MHz
+[2017.06.19-03.15.22:227][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.19-03.15.22:227][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.19-03.15.22:227][  0]LogMemory: Process Physical Memory: 272.47 MB used, 272.47 MB peak
+[2017.06.19-03.15.22:227][  0]LogMemory: Process Virtual Memory: 266.80 MB used, 266.80 MB peak
+[2017.06.19-03.15.22:227][  0]LogMemory: Physical Memory: 4596.65 MB used,  3505.34 MB free, 8101.99 MB total
+[2017.06.19-03.15.22:227][  0]LogMemory: Virtual Memory: 642.20 MB used,  3505.34 MB free, 134217728.00 MB total
+[2017.06.19-03.15.22:338][  0]LogInit: Using OS detected language (en-US).
+[2017.06.19-03.15.22:338][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.19-03.15.22:345][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.19-03.15.23:834][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.19-03.15.23:843][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2017.06.19-03.15.23:843][  0]LogD3D11RHI:       128/0/4050 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2017.06.19-03.15.23:847][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.19-03.15.23:847][  0]LogD3D11RHI:       0/0/4050 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.19-03.15.23:847][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.19-03.15.23:858][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.19-03.15.23:858][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.19-03.15.23:858][  0]LogWindows: EnumDisplayDevices:
+[2017.06.19-03.15.23:858][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:0 D:1)
+[2017.06.19-03.15.23:858][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2017.06.19-03.15.23:858][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2017.06.19-03.15.23:859][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.06.19-03.15.23:859][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2017.06.19-03.15.23:859][  0]LogD3D11RHI:   Driver Version: 10.18.15.4274 (internal:10.18.15.4274, unified:10.18.15.4274)
+[2017.06.19-03.15.23:859][  0]LogD3D11RHI:      Driver Date: 8-13-2015
+[2017.06.19-03.15.23:859][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.19-03.15.23:865][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.19-03.15.23:871][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.06.19-03.15.23:872][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Intermediate/Shaders/WorkingDirectory/10228/).
+[2017.06.19-03.15.23:873][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Teresa/AppData/Local/Temp/UnrealShaderWorkingDir/7431F4234B2B756874D436B7CD21211D/'.
+[2017.06.19-03.15.23:873][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.19-03.15.25:539][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.19-03.15.25:630][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.19-03.15.25:719][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.19-03.15.25:809][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.19-03.15.25:895][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.19-03.15.25:982][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.19-03.15.26:070][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.19-03.15.26:158][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.19-03.15.26:236][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.19-03.15.26:323][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.19-03.15.26:416][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.19-03.15.26:500][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.19-03.15.26:587][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.19-03.15.26:673][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.19-03.15.26:758][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.19-03.15.26:930][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.19-03.15.26:930][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.19-03.15.27:002][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.19-03.15.27:151][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.19-03.15.27:200][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.19-03.15.27:290][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.19-03.15.27:379][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.19-03.15.27:463][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.19-03.15.27:549][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.19-03.15.27:549][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.19-03.15.28:417][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.19-03.15.28:590][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/Teresa/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.19-03.15.28:590][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Teresa/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.19-03.15.28:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.19-03.15.28:590][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.19-03.15.28:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.19-03.15.28:590][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.19-03.15.28:618][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.19-03.15.28:632][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Teresa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.19-03.15.28:648][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.19-03.15.28:648][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.19-03.15.28:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-03.15.28:649][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.19-03.15.29:151][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.19-03.15.29:293][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.19-03.15.29:572][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.19-03.15.29:653][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.19-03.15.29:745][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.19-03.15.29:745][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.19-03.15.29:745][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.19-03.15.30:734][  0]LogNetVersion: CubeFarmBP , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2022016040)
+[2017.06.19-03.15.30:821][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
+[2017.06.19-03.15.30:995][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.115917 seconds
+[2017.06.19-03.15.31:002][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.19-03.15.31:002][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.19-03.15.31:002][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.19-03.15.31:119][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.19-03.15.35:224][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.19-03.15.35:288][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.19-03.15.36:765][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.19-03.15.37:789][  0]SourceControl: Info Source control is disabled
+[2017.06.19-03.15.37:859][  0]SourceControl: Info Source control is disabled
+[2017.06.19-03.15.37:954][  0]SourceControl: Info Source control is disabled
+[2017.06.19-03.15.38:040][  0]SourceControl: Info Source control is disabled
+[2017.06.19-03.15.39:336][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.19-03.15.40:437][  0]LogEngine: Initializing Engine...
+[2017.06.19-03.15.40:438][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.19-03.15.40:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.19-03.15.40:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.19-03.15.41:039][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.19-03.15.41:050][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.15.41:337][  0]LogInit: FAudioDevice initialized.
+[2017.06.19-03.15.41:482][  0]LogDerivedDataCache: Saved boot cache 0.14s 90MB C:/Users/Teresa/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.19-03.15.41:504][  0]LogInit: Texture streaming: Enabled
+[2017.06.19-03.15.41:668][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.19-03.15.42:087][  0]LogInit: Transaction tracking system initialized
+[2017.06.19-03.15.42:682][  0]BlueprintLog: New page: Editor Load
+[2017.06.19-03.15.44:424][  0]LocalizationService: Info Localization service is disabled
+[2017.06.19-03.15.45:694][  0]LogConsoleResponse:Display: 
+[2017.06.19-03.15.45:986][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.19-03.15.45:987][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.19-03.15.46:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/' took 0.03s
+[2017.06.19-03.15.48:178][  0]SourceControl: Info Source control is disabled
+[2017.06.19-03.15.48:178][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-03.15.48:179][  0]LightingResults: New page: Lighting Build
+[2017.06.19-03.15.48:255][  0]MapCheck: New page: Map Check
+[2017.06.19-03.15.48:255][  0]LightingResults: New page: Lighting Build
+[2017.06.19-03.15.48:834][  0]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.15.48:845][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-03.15.48:936][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-03.15.49:050][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.798ms to complete.
+[2017.06.19-03.15.49:050][  0]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.872
+[2017.06.19-03.15.49:359][  0]LogCollectionManager: Loaded 0 collections in 0.002816 seconds
+[2017.06.19-03.15.49:517][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Collections/' took 0.01s
+[2017.06.19-03.15.49:517][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/Developers/Teresa/Collections/' took 0.01s
+[2017.06.19-03.15.49:517][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/Collections/' took 0.01s
+[2017.06.19-03.15.49:517][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.19-03.15.49:532][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2329 classes and 491 folders.
+[2017.06.19-03.15.49:648][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.19-03.15.50:529][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.06.19-03.15.50:633][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.19-03.15.50:691][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.19-03.15.50:702][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.19-03.15.50:889][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0030 seconds. Added 1 classes and 2 folders.
+[2017.06.19-03.15.50:893][  0]LogLoad: (Engine Initialization) Total time: 32.35 seconds
+[2017.06.19-03.15.50:893][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.06.19-03.15.50:893][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.19-03.15.50:924][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.19-03.15.50:940][  0]LogOcInput: OculusInput pre-init called
+[2017.06.19-03.15.50:940][  0]LogHMD: Starting GearVRController plugin
+[2017.06.19-03.15.50:966][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.19-03.15.50:969][  0]LogSlate: Took 0.001167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-03.15.50:975][  0]LogSlate: Took 0.001652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.19-03.15.50:992][  0]LogSlate: Took 0.000550 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.19-03.15.51:128][  0]LogSlate: Took 0.000948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-03.15.51:308][  2]LogRenderer: Reallocating scene render targets to support 1528x472 NumSamples 1 (Frame:1).
+[2017.06.19-03.15.51:778][  2]LogAssetRegistry: Asset discovery search completed in 20.9803 seconds
+[2017.06.19-03.15.51:785][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.06.19-03.15.51:785][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2017.06.19-03.16.35:470][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2017.06.19-03.16.48:531][649]LogSlate: Took 0.002277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-03.16.49:326][649]LogSlate: Took 0.000983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.19-03.16.49:884][649]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 112 classes and 0 folders.
+[2017.06.19-03.16.51:211][649]LogSlate: Took 0.021561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.19-03.17.11:214][859]LogSlate: Took 0.061787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.19-03.17.19:050][923]LogSlate: Took 0.001067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.19-03.23.00:899][226]BlueprintLog: New page: Compile PuzzleBlockGrid
+[2017.06.19-03.23.03:172][238]LogSavePackage: Save=81.74ms
+[2017.06.19-03.23.03:172][238]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid8888841E48C34A6B65319DA82CF67568.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset'
+[2017.06.19-03.23.03:185][238]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset
+[2017.06.19-03.23.04:885][254]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-03.23.05:151][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.23.05:151][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-03.23.05:152][254]PIE: New page: PIE session: PuzzleExampleMap (Jun 18, 2017, 1:23:05 PM)
+[2017.06.19-03.23.05:152][254]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-03.23.05:195][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043173s)
+[2017.06.19-03.23.05:200][254]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.23.05:200][254]LogPlayLevel: PIE: World Init took: (0.004781s)
+[2017.06.19-03.23.05:201][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.048415s)
+[2017.06.19-03.23.05:256][254]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.23.05:291][254]LogInit: FAudioDevice initialized.
+[2017.06.19-03.23.05:350][254]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-03.23.05:355][254]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2017.06.18-20.23.05
+[2017.06.19-03.23.05:355][254]LogWorld: Bringing up level for play took: 0.002796
+[2017.06.19-03.23.05:440][254]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.06.19-03.23.05:445][254]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.358
+[2017.06.19-03.23.05:445][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.23.29:474][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.23.29:700][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.23.37:615][562]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-03.23.37:677][562]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.23.37:679][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-03.23.37:680][562]PIE: New page: PIE session: PuzzleExampleMap (Jun 18, 2017, 1:23:37 PM)
+[2017.06.19-03.23.37:681][562]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-03.23.37:762][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081404s)
+[2017.06.19-03.23.37:766][562]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.23.37:766][562]LogPlayLevel: PIE: World Init took: (0.003996s)
+[2017.06.19-03.23.37:767][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.086235s)
+[2017.06.19-03.23.37:901][562]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.23.37:944][562]LogInit: FAudioDevice initialized.
+[2017.06.19-03.23.37:983][562]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-03.23.37:985][562]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2017.06.18-20.23.37
+[2017.06.19-03.23.37:986][562]LogWorld: Bringing up level for play took: 0.001884
+[2017.06.19-03.23.38:001][562]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.915
+[2017.06.19-03.23.38:002][562]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.24.42:458][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.24.42:626][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.27.15:211][557]LogSavePackage: Save=86.54ms
+[2017.06.19-03.27.15:211][557]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGridBEE3C68F4BFB644B60F574B3C575CFFB.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset'
+[2017.06.19-03.27.15:236][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset
+[2017.06.19-03.27.16:584][567]BlueprintLog: New page: Compile PuzzleBlockGrid
+[2017.06.19-03.27.30:081][649]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-03.27.30:145][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.27.30:145][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-03.27.30:147][649]PIE: New page: PIE session: PuzzleExampleMap (Jun 18, 2017, 1:27:30 PM)
+[2017.06.19-03.27.30:147][649]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-03.27.30:207][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059544s)
+[2017.06.19-03.27.30:208][649]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.27.30:209][649]LogPlayLevel: PIE: World Init took: (0.001780s)
+[2017.06.19-03.27.30:209][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.061850s)
+[2017.06.19-03.27.30:273][649]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.27.30:307][649]LogInit: FAudioDevice initialized.
+[2017.06.19-03.27.30:351][649]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-03.27.30:359][649]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2017.06.18-20.27.30
+[2017.06.19-03.27.30:359][649]LogWorld: Bringing up level for play took: 0.003708
+[2017.06.19-03.27.30:369][649]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.718
+[2017.06.19-03.27.30:369][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.27.47:850][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.27.48:044][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.28.21:583][ 40]LogSavePackage: Save=178.76ms
+[2017.06.19-03.28.21:583][ 40]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap_Auto124E3FE7A416E7AF6F3C4558C420E1C47.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap'
+[2017.06.19-03.28.21:586][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto1.umap
+[2017.06.19-03.28.21:594][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.283
+[2017.06.19-03.28.21:594][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
+[2017.06.19-03.28.22:685][ 48]Cmd: DELETE
+[2017.06.19-03.28.22:685][ 48]Cmd: ACTOR DELETE
+[2017.06.19-03.28.22:870][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.19-03.28.22:916][ 48]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2017.06.19-03.28.26:413][ 72]BlueprintLog: New page: Compile PuzzleBlockGrid
+[2017.06.19-03.28.27:741][ 79]LogSavePackage: Save=81.26ms
+[2017.06.19-03.28.27:741][ 79]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid4C98A3DE458D6F7C513F4FA4564D7775.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset'
+[2017.06.19-03.28.27:745][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset
+[2017.06.19-03.28.36:386][146]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-03.28.36:460][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.28.36:460][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-03.28.36:460][146]PIE: New page: PIE session: PuzzleExampleMap (Jun 18, 2017, 1:28:36 PM)
+[2017.06.19-03.28.36:460][146]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-03.28.36:580][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119792s)
+[2017.06.19-03.28.36:585][146]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.28.36:585][146]LogPlayLevel: PIE: World Init took: (0.005032s)
+[2017.06.19-03.28.36:586][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.125504s)
+[2017.06.19-03.28.36:649][146]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.28.36:681][146]LogInit: FAudioDevice initialized.
+[2017.06.19-03.28.36:716][146]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-03.28.36:718][146]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2017.06.18-20.28.36
+[2017.06.19-03.28.36:718][146]LogWorld: Bringing up level for play took: 0.001484
+[2017.06.19-03.28.36:723][146]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.363
+[2017.06.19-03.28.36:724][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.28.56:760][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.28.56:899][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.29.24:565][569]LogSavePackage: Save=110.86ms
+[2017.06.19-03.29.24:566][569]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGridA983BF8047F79C6A24A57F8B1485E073.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset'
+[2017.06.19-03.29.24:571][569]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset
+[2017.06.19-03.29.26:796][590]BlueprintLog: New page: Compile PuzzleBlockGrid
+[2017.06.19-03.29.36:768][673]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-03.29.36:856][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.29.36:856][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-03.29.36:857][673]PIE: New page: PIE session: PuzzleExampleMap (Jun 18, 2017, 1:29:36 PM)
+[2017.06.19-03.29.36:857][673]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-03.29.36:971][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113747s)
+[2017.06.19-03.29.36:974][673]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.29.36:974][673]LogPlayLevel: PIE: World Init took: (0.003285s)
+[2017.06.19-03.29.36:975][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.117863s)
+[2017.06.19-03.29.37:119][673]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.29.37:173][673]LogInit: FAudioDevice initialized.
+[2017.06.19-03.29.37:219][673]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-03.29.37:223][673]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2017.06.18-20.29.37
+[2017.06.19-03.29.37:224][673]LogWorld: Bringing up level for play took: 0.003234
+[2017.06.19-03.29.37:237][673]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.151
+[2017.06.19-03.29.37:238][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.30.16:044][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.30.16:178][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.32.05:634][ 48]LogEditorTransaction: Undo Edit Properties
+[2017.06.19-03.32.09:739][ 80]Cmd: TRANSACTION UNDO
+[2017.06.19-03.32.09:739][ 80]LogEditorTransaction: Undo Delete Actors
+[2017.06.19-03.32.40:946][281]BlueprintLog: New page: Compile PuzzleBlockGrid
+[2017.06.19-03.32.58:012][385]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-03.32.58:117][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.32.58:117][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-03.32.58:118][385]PIE: New page: PIE session: PuzzleExampleMap (Jun 18, 2017, 1:32:58 PM)
+[2017.06.19-03.32.58:118][385]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-03.32.58:165][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047019s)
+[2017.06.19-03.32.58:166][385]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.32.58:166][385]LogPlayLevel: PIE: World Init took: (0.001469s)
+[2017.06.19-03.32.58:167][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.048892s)
+[2017.06.19-03.32.58:225][385]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.32.58:256][385]LogInit: FAudioDevice initialized.
+[2017.06.19-03.32.58:294][385]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-03.32.58:296][385]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2017.06.18-20.32.58
+[2017.06.19-03.32.58:297][385]LogWorld: Bringing up level for play took: 0.002187
+[2017.06.19-03.32.58:307][385]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap -0.78
+[2017.06.19-03.32.58:307][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.33.22:889][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.33.23:113][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.33.31:458][685]LogSavePackage: Save=271.61ms
+[2017.06.19-03.33.31:458][685]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap5F5053AB4DDF87BBD678AF9280D30EF2.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2017.06.19-03.33.31:468][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2017.06.19-03.33.31:630][685]LogSavePackage: Save=78.06ms
+[2017.06.19-03.33.31:630][685]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap_BuiltDataD38007794CBA682EEA6523B51123ABBF.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset'
+[2017.06.19-03.33.31:634][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset
+[2017.06.19-03.33.37:200][716]LogSavePackage: Save=106.13ms
+[2017.06.19-03.33.37:200][716]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid1AA89B744F1B127164F14C8E5D4F6332.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset'
+[2017.06.19-03.33.37:210][716]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset
+[2017.06.19-03.34.15:821][906]LogSavePackage: Save=77.26ms
+[2017.06.19-03.34.15:821][906]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid9CD2DC4B4D4024E3EF55F38740B5252D.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset'
+[2017.06.19-03.34.15:830][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset
+[2017.06.19-03.34.18:024][921]BlueprintLog: New page: Compile PuzzleBlockGrid
+[2017.06.19-03.34.21:825][944]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-03.34.21:897][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.34.21:897][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-03.34.21:898][944]PIE: New page: PIE session: PuzzleExampleMap (Jun 18, 2017, 1:34:21 PM)
+[2017.06.19-03.34.21:898][944]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-03.34.21:991][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091987s)
+[2017.06.19-03.34.21:994][944]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-03.34.21:995][944]LogPlayLevel: PIE: World Init took: (0.004220s)
+[2017.06.19-03.34.21:996][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.097258s)
+[2017.06.19-03.34.22:122][944]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-03.34.22:154][944]LogInit: FAudioDevice initialized.
+[2017.06.19-03.34.22:192][944]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-03.34.22:194][944]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 60) at 2017.06.18-20.34.22
+[2017.06.19-03.34.22:194][944]LogWorld: Bringing up level for play took: 0.001617
+[2017.06.19-03.34.22:200][944]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 1.113
+[2017.06.19-03.34.22:200][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.34.36:202][105]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.34.36:430][105]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-03.39.24:417][841]LogRenderer: Reallocating scene render targets to support 1528x696 NumSamples 1 (Frame:1).
+[2017.06.19-03.44.53:164][438]LogSavePackage: Save=238.33ms
+[2017.06.19-03.44.53:164][438]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap_Auto22B7353E3474278995F5B07A6610A83C2.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap'
+[2017.06.19-03.44.53:167][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto2.umap
+[2017.06.19-03.44.53:172][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.389
+[2017.06.19-03.44.53:172][438]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.389
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c87fe8 [can pipeline])
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 1 (Re-using existing connection! (#18) with host datarouter.ol.epicgames.com)
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.158.243) port 443 (#18))
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 3 (upload completely sent off: 369 out of 369 bytes)
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 6 (Closing connection 18)
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.19-04.01.14:134][ 34]LogHttp:Warning: 000001DA62CCFD00: libcurl info message cache 9 (Closing connection 19)
+[2017.06.19-06.11.59:828][ 74]LogSavePackage: Save=313.97ms
+[2017.06.19-06.11.59:829][ 74]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap7E44DF794EEA0A9C58DC148F0096E355.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2017.06.19-06.11.59:892][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2017.06.19-06.12.00:076][ 74]LogFileHelpers: Saving map 'PuzzleExampleMap' took 0.922
+[2017.06.19-06.12.00:094][ 74]Cmd: MAP LOAD FILE="../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-06.12.00:094][ 74]LightingResults: New page: Lighting Build
+[2017.06.19-06.12.00:096][ 74]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
+[2017.06.19-06.12.00:102][ 74]MapCheck: New page: Map Check
+[2017.06.19-06.12.00:102][ 74]LightingResults: New page: Lighting Build
+[2017.06.19-06.12.00:268][ 74]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-06.12.00:292][ 74]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-06.12.00:397][ 74]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-06.12.00:528][ 74]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.204ms to complete.
+[2017.06.19-06.12.00:529][ 74]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.448
+[2017.06.19-06.23.01:685][672]Cmd: MAP LOAD FILE="../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-06.23.01:686][672]LightingResults: New page: Lighting Build
+[2017.06.19-06.23.01:686][672]LoadErrors: New page: Loading map: PuzzleExampleMap.umap
+[2017.06.19-06.23.01:687][672]MapCheck: New page: Map Check
+[2017.06.19-06.23.01:687][672]LightingResults: New page: Lighting Build
+[2017.06.19-06.23.01:771][672]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-06.23.01:783][672]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-06.23.01:859][672]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-06.23.01:995][672]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.635ms to complete.
+[2017.06.19-06.23.01:998][672]LogFileHelpers: Loading map 'PuzzleExampleMap' took 0.314
+[2017.06.19-06.29.11:283][973]LogAIModule: Creating AISystem for world Basic
+[2017.06.19-06.31.16:063][823]LogSavePackage: Save=197.25ms
+[2017.06.19-06.31.16:063][823]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap2055A62747271FB469A131817FE85D57.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2017.06.19-06.31.16:069][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2017.06.19-06.31.16:225][823]LogSavePackage: Save=59.21ms
+[2017.06.19-06.31.16:225][823]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap_BuiltData1DCF68E7476C703260E7A28B01A899A4.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset'
+[2017.06.19-06.31.16:229][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset
+[2017.06.19-09.35.50:791][932]LogHttp:Warning: 000001DA8182F880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.19-09.35.50:791][932]LogHttp:Warning: 000001DA8182F880: libcurl info message cache 0 (Connection 54 seems to be dead!)
+[2017.06.19-09.35.50:791][932]LogHttp:Warning: 000001DA8182F880: libcurl info message cache 1 (Closing connection 54)
+[2017.06.19-09.35.50:791][932]LogHttp:Warning: 000001DA8182F880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.19-09.35.50:791][932]LogHttp:Warning: 000001DA8182F880: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.19-09.35.50:791][932]LogHttp:Warning: 000001DA8182F880: libcurl info message cache 4 (Closing connection 55)
+[2017.06.19-09.36.00:347][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.040
+[2017.06.19-15.28.14:070][981]LogHttp:Warning: 000001DA81849D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.19-15.28.14:070][981]LogHttp:Warning: 000001DA81849D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.19-15.28.14:070][981]LogHttp:Warning: 000001DA81849D80: libcurl info message cache 1 (Closing connection 56)
+[2017.06.19-15.28.24:131][  4]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.065
+[2017.06.19-15.38.28:574][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.106
+[2017.06.19-15.48.28:950][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.075
+[2017.06.19-15.50.56:891][970]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-15.50.57:007][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-15.50.57:008][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-15.50.57:008][970]PIE: New page: PIE session: PuzzleExampleMap (Jun 19, 2017, 1:50:57 AM)
+[2017.06.19-15.50.57:008][970]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap
+[2017.06.19-15.50.57:057][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047899s)
+[2017.06.19-15.50.57:060][970]LogAIModule: Creating AISystem for world PuzzleExampleMap
+[2017.06.19-15.50.57:061][970]LogPlayLevel: PIE: World Init took: (0.003434s)
+[2017.06.19-15.50.57:061][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap to /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap (0.052029s)
+[2017.06.19-15.50.57:142][970]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-15.50.57:193][970]LogInit: FAudioDevice initialized.
+[2017.06.19-15.50.57:280][970]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-15.50.57:287][970]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap.PuzzleExampleMap up for play (max tick rate 0) at 2017.06.19-08.50.57
+[2017.06.19-15.50.57:288][970]LogWorld: Bringing up level for play took: 0.006926
+[2017.06.19-15.50.57:300][970]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_PuzzleExampleMap 0.986
+[2017.06.19-15.50.57:301][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-15.55.21:760][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-15.55.21:865][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap' with GeneratedClass '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/PuzzleExampleMap.PuzzleExampleMap:PersistentLevel.PuzzleExampleMap'
+[2017.06.19-15.56.56:076][705]LogSlate: Took 0.052362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Black.ttf' (162K)
+[2017.06.19-15.57.52:433][902]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.06.19-16.02.54:402][576]LogSavePackage: Save=212.51ms
+[2017.06.19-16.02.54:402][576]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap_Auto321552F4C40D67C2FE5F9368746CBACD3.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto3.umap'
+[2017.06.19-16.02.54:472][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto3.umap
+[2017.06.19-16.02.54:498][576]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.428
+[2017.06.19-16.02.54:498][576]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.428
+[2017.06.19-16.12.55:282][240]LogSavePackage: Save=194.69ms
+[2017.06.19-16.12.55:282][240]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap_Auto4BBF1CD784BF93EDDE31393862DC8EB49.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto4.umap'
+[2017.06.19-16.12.55:288][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/PuzzleExampleMap_Auto4.umap
+[2017.06.19-16.12.55:295][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/PuzzleExampleMap' took 0.375
+[2017.06.19-16.12.55:295][240]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.375
+[2017.06.19-16.14.12:162][134]LogSavePackage: Save=175.29ms
+[2017.06.19-16.14.12:162][134]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap80E4220D437221906A7BE692D2930BB5.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap'
+[2017.06.19-16.14.12:179][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap.umap
+[2017.06.19-16.14.12:337][134]LogSavePackage: Save=70.48ms
+[2017.06.19-16.14.12:337][134]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleExampleMap_BuiltDataC235906F4744486DC8BAE4A01403782A.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset'
+[2017.06.19-16.14.12:342][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/PuzzleExampleMap_BuiltData.uasset
+[2017.06.19-16.21.53:514][902]LogSavePackage: Save=322.35ms
+[2017.06.19-16.21.53:514][902]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic94721E8746E884988B8490B94714C29A.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/Basic.umap'
+[2017.06.19-16.21.53:529][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/Basic.umap
+[2017.06.19-16.21.53:537][902]LogFileHelpers: Saving map 'Basic' took 6.320
+[2017.06.19-16.21.53:552][902]Cmd: MAP LOAD FILE="../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/Basic.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.19-16.21.53:576][902]LightingResults: New page: Lighting Build
+[2017.06.19-16.21.53:581][902]LoadErrors: New page: Loading map: Basic.umap
+[2017.06.19-16.21.53:587][902]MapCheck: New page: Map Check
+[2017.06.19-16.21.53:587][902]LightingResults: New page: Lighting Build
+[2017.06.19-16.21.53:667][902]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.19-16.21.53:785][902]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.19-16.21.53:930][902]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 144.635ms to complete.
+[2017.06.19-16.21.53:930][902]LogFileHelpers: Loading map 'Basic' took 0.384
+[2017.06.19-20.16.55:648][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.166
+[2017.06.19-20.26.56:033][831]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.061
+[2017.06.19-20.36.56:856][633]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.069
+[2017.06.19-20.48.04:696][440]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-20.48.04:829][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-20.48.04:829][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-20.48.04:829][440]PIE: New page: PIE session: Basic (Jun 19, 2017, 6:48:04 AM)
+[2017.06.19-20.48.04:829][440]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Basic
+[2017.06.19-20.48.04:873][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044043s)
+[2017.06.19-20.48.04:876][440]LogAIModule: Creating AISystem for world Basic
+[2017.06.19-20.48.04:876][440]LogPlayLevel: PIE: World Init took: (0.002789s)
+[2017.06.19-20.48.04:877][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Basic.Basic to /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic (0.047314s)
+[2017.06.19-20.48.04:930][440]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-20.48.04:965][440]LogInit: FAudioDevice initialized.
+[2017.06.19-20.48.05:001][440]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-20.48.05:004][440]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic up for play (max tick rate 60) at 2017.06.19-13.48.05
+[2017.06.19-20.48.05:004][440]LogWorld: Bringing up level for play took: 0.002379
+[2017.06.19-20.48.05:016][440]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Basic -0.809
+[2017.06.19-20.48.05:018][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-20.48.26:424][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-20.48.26:564][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-20.48.52:045][556]LogSavePackage: Save=157.82ms
+[2017.06.19-20.48.52:045][556]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic_Auto5B6BEC7834E0EA93F404B71A6FF777042.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto5.umap'
+[2017.06.19-20.48.52:117][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto5.umap
+[2017.06.19-20.48.52:137][556]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.357
+[2017.06.19-20.48.52:137][556]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2017.06.19-23.01.04:317][792]LogSavePackage: Save=180.18ms
+[2017.06.19-23.01.04:317][792]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic_Auto65DC626D9416E3B702F056D8BFFBEFD18.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto6.umap'
+[2017.06.19-23.01.04:358][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto6.umap
+[2017.06.19-23.01.04:362][792]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.390
+[2017.06.19-23.01.04:362][792]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.390
+[2017.06.19-23.01.04:365][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid] ([1] browsable assets)...
+[2017.06.19-23.01.04:365][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid]
+[2017.06.19-23.01.04:489][792]LogSavePackage: Save=96.68ms
+[2017.06.19-23.01.04:489][792]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid_Auto64FFD14854868F6E0F5667CA77DBC5E45.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto6.uasset'
+[2017.06.19-23.01.04:493][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto6.uasset
+[2017.06.19-23.01.04:493][792]LogFileHelpers: Auto-saving content packages took 0.129
+[2017.06.19-23.05.14:891][144]BlueprintLog: New page: Compile PuzzleBlockGrid
+[2017.06.19-23.06.10:423][ 65]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-23.06.10:500][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.06.10:500][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-23.06.10:500][ 65]PIE: New page: PIE session: Basic (Jun 19, 2017, 9:06:10 AM)
+[2017.06.19-23.06.10:501][ 65]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Basic
+[2017.06.19-23.06.10:540][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038913s)
+[2017.06.19-23.06.10:541][ 65]LogAIModule: Creating AISystem for world Basic
+[2017.06.19-23.06.10:541][ 65]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2017.06.19-23.06.10:542][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Basic.Basic to /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic (0.040966s)
+[2017.06.19-23.06.10:601][ 65]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-23.06.10:637][ 65]LogInit: FAudioDevice initialized.
+[2017.06.19-23.06.10:672][ 65]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-23.06.10:675][ 65]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic up for play (max tick rate 0) at 2017.06.19-16.06.10
+[2017.06.19-23.06.10:675][ 65]LogWorld: Bringing up level for play took: 0.002347
+[2017.06.19-23.06.10:680][ 65]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Basic 0.856
+[2017.06.19-23.06.10:680][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.06.37:482][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.06.37:590][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.07.39:502][859]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.19-23.07.39:586][859]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.07.39:586][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.19-23.07.39:587][859]PIE: New page: PIE session: Basic (Jun 19, 2017, 9:07:39 AM)
+[2017.06.19-23.07.39:587][859]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Basic
+[2017.06.19-23.07.39:639][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051810s)
+[2017.06.19-23.07.39:640][859]LogAIModule: Creating AISystem for world Basic
+[2017.06.19-23.07.39:641][859]LogPlayLevel: PIE: World Init took: (0.001645s)
+[2017.06.19-23.07.39:641][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Basic.Basic to /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic (0.053924s)
+[2017.06.19-23.07.39:691][859]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.19-23.07.39:721][859]LogInit: FAudioDevice initialized.
+[2017.06.19-23.07.39:756][859]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.19-23.07.39:758][859]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic up for play (max tick rate 0) at 2017.06.19-16.07.39
+[2017.06.19-23.07.39:758][859]LogWorld: Bringing up level for play took: 0.001893
+[2017.06.19-23.07.39:765][859]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Basic -0.059
+[2017.06.19-23.07.39:765][859]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.10.34:439][675]Cmd: SELECT NONE
+[2017.06.19-23.18.33:791][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.18.33:918][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.19-23.22.26:455][688]LogSavePackage: Save=172.24ms
+[2017.06.19-23.22.26:455][688]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic_Auto7DCA77A7E41FDF94275C50285C683154C.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto7.umap'
+[2017.06.19-23.22.26:489][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto7.umap
+[2017.06.19-23.22.26:505][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.336
+[2017.06.19-23.22.26:505][688]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.336
+[2017.06.19-23.22.26:509][688]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid] ([1] browsable assets)...
+[2017.06.19-23.22.26:509][688]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid]
+[2017.06.19-23.22.26:613][688]LogSavePackage: Save=76.33ms
+[2017.06.19-23.22.26:613][688]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid_Auto72F6B545E4A0951011A57F49AC49BE660.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto7.uasset'
+[2017.06.19-23.22.26:618][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto7.uasset
+[2017.06.19-23.22.26:618][688]LogFileHelpers: Auto-saving content packages took 0.112
+[2017.06.20-04.10.23:265][622]LogSavePackage: Save=251.74ms
+[2017.06.20-04.10.23:265][622]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic_Auto802FAAF3D4EC23332861157B94B3E79D8.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto8.umap'
+[2017.06.20-04.10.23:305][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto8.umap
+[2017.06.20-04.10.23:313][622]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.749
+[2017.06.20-04.10.23:313][622]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.749
+[2017.06.20-04.10.23:322][622]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid] ([1] browsable assets)...
+[2017.06.20-04.10.23:322][622]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid]
+[2017.06.20-04.10.23:632][622]LogSavePackage: Save=209.61ms
+[2017.06.20-04.10.23:632][622]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid_Auto8749B756A4BBCC362187599AD4F1B8AFB.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto8.uasset'
+[2017.06.20-04.10.23:634][622]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto8.uasset
+[2017.06.20-04.10.23:635][622]LogFileHelpers: Auto-saving content packages took 0.319
+[2017.06.20-04.20.24:183][300]LogSavePackage: Save=211.99ms
+[2017.06.20-04.20.24:183][300]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic_Auto9B07737A34ED2B76F58FCC5B1A5143BF6.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto9.umap'
+[2017.06.20-04.20.24:191][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto9.umap
+[2017.06.20-04.20.24:195][300]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.324
+[2017.06.20-04.20.24:195][300]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.324
+[2017.06.20-04.20.24:199][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid] ([1] browsable assets)...
+[2017.06.20-04.20.24:199][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid]
+[2017.06.20-04.20.24:408][300]LogSavePackage: Save=164.34ms
+[2017.06.20-04.20.24:408][300]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid_Auto9E0587FB54A02C06DB64E86BA386AD85C.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto9.uasset'
+[2017.06.20-04.20.24:411][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto9.uasset
+[2017.06.20-04.20.24:411][300]LogFileHelpers: Auto-saving content packages took 0.214
+[2017.06.20-04.36.06:072][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.072
+[2017.06.20-04.36.06:081][371]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid] ([1] browsable assets)...
+[2017.06.20-04.36.06:082][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid]
+[2017.06.20-04.36.06:213][371]LogSavePackage: Save=85.55ms
+[2017.06.20-04.36.06:213][371]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid_Auto0AB0865FE41BDCC247C28658CABC0031A.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto0.uasset'
+[2017.06.20-04.36.06:218][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto0.uasset
+[2017.06.20-04.36.06:218][371]LogFileHelpers: Auto-saving content packages took 0.144
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c87fd0 [can pipeline])
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 1 (Re-using existing connection! (#176) with host datarouter.ol.epicgames.com)
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.164.193.73) port 443 (#176))
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 3 (upload completely sent off: 365 out of 365 bytes)
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 6 (Closing connection 176)
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.20-05.06.39:707][587]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 9 (Closing connection 177)
+[2017.06.20-05.07.21:009][710]LogHttp:Warning: 000001DAAF0C6500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.20-05.07.21:009][710]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.20-05.07.21:009][710]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 1 (Closing connection 178)
+[2017.06.20-05.52.33:515][845]LogHttp:Warning: 000001DAAF0C7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.20-05.52.33:515][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c86ae8 [can pipeline])
+[2017.06.20-05.52.33:515][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 1 (Re-using existing connection! (#182) with host datarouter.ol.epicgames.com)
+[2017.06.20-05.52.33:515][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#182))
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 3 (upload completely sent off: 365 out of 365 bytes)
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 6 (Closing connection 182)
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.20-05.52.33:516][845]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 10 (Closing connection 183)
+[2017.06.20-05.53.09:861][954]LogHttp:Warning: 000001DAAF0C6500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.20-05.53.09:861][954]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.20-05.53.09:861][954]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 1 (Closing connection 184)
+[2017.06.20-05.54.20:876][167]LogHttp:Warning: 000001DAAF0C7580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.20-05.54.20:876][167]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.20-05.54.20:876][167]LogHttp:Warning: 000001DAAF0C7580: libcurl info message cache 1 (Closing connection 185)
+[2017.06.20-05.55.20:877][347]LogHttp:Warning: 000001DAAF0C7280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.20-05.55.20:877][347]LogHttp:Warning: 000001DAAF0C7280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.20-05.55.20:877][347]LogHttp:Warning: 000001DAAF0C7280: libcurl info message cache 1 (Closing connection 186)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c871d8 [can pipeline])
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 1 (Re-using existing connection! (#187) with host datarouter.ol.epicgames.com)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.158.243) port 443 (#187))
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 3 (upload completely sent off: 718 out of 718 bytes)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 6 (Closing connection 187)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.20-05.57.58:660][820]LogHttp:Warning: 000001DAAF0C6500: libcurl info message cache 9 (Closing connection 188)
+[2017.06.20-15.30.38:699][886]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.30.42:044][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.31.20:981][ 13]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.32.41:735][255]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.35.50:970][823]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.41.07:032][771]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.44.12:129][326]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.48.38:789][126]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.49.06:081][208]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.50.11:482][404]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.51.04:449][563]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.52.42:139][856]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.53.15:423][956]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.58.17:654][862]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.58.41:275][933]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-15.59.21:290][ 53]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.01.10:369][380]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.01.40:358][470]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.07.58:130][603]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.08.44:773][743]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.08.50:473][760]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.09.44:417][922]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.11.49:872][298]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.16.34:514][152]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.17.54:155][391]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.19.08:144][613]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-16.21.17:596][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.20-23.14.47:809][482]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.20-23.14.49:484][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.20-23.14.49:619][482]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.20-23.14.49:628][482]LogPlayLevel: [PlayLevel] Compiling PuzzleBlockGrid before play...
+[2017.06.20-23.14.55:368][482]LogPlayLevel: PlayLevel: Blueprint regeneration took 5865 ms (1 blueprints)
+[2017.06.20-23.14.55:380][482]PIE: New page: PIE session: Basic (Jun 20, 2017, 9:14:55 AM)
+[2017.06.20-23.14.55:382][482]LogPlayLevel: Creating play world package: /Game/PuzzleBP/Maps/UEDPIE_0_Basic
+[2017.06.20-23.14.56:156][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.774768s)
+[2017.06.20-23.14.56:204][482]LogAIModule: Creating AISystem for world Basic
+[2017.06.20-23.14.56:204][482]LogPlayLevel: PIE: World Init took: (0.048335s)
+[2017.06.20-23.14.56:205][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PuzzleBP/Maps/Basic.Basic to /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic (0.823770s)
+[2017.06.20-23.14.56:559][482]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.20-23.14.56:650][482]LogInit: FAudioDevice initialized.
+[2017.06.20-23.14.56:731][482]LogLoad: Game class is 'PuzzleGameMode_C'
+[2017.06.20-23.14.56:772][482]LogWorld: Bringing World /Game/PuzzleBP/Maps/UEDPIE_0_Basic.Basic up for play (max tick rate 0) at 2017.06.20-16.14.56
+[2017.06.20-23.14.56:773][482]LogWorld: Bringing up level for play took: 0.023453
+[2017.06.20-23.14.56:799][482]PIE: Info Play in editor start time for /Game/PuzzleBP/Maps/UEDPIE_0_Basic 6.728
+[2017.06.20-23.14.56:817][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.20-23.20.07:166][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.20-23.20.07:354][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel' has LevelScriptBlueprint '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic' with GeneratedClass '/Game/PuzzleBP/Maps/Basic.Basic_C' with ClassGeneratedBy '/Game/PuzzleBP/Maps/Basic.Basic:PersistentLevel.Basic'
+[2017.06.20-23.22.48:516][131]LogSavePackage: Save=210.78ms
+[2017.06.20-23.22.48:516][131]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic_Auto10827E38B4561138B9BE4ECA38DC21A7E.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto1.umap'
+[2017.06.20-23.22.48:557][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Maps/Basic_Auto1.umap
+[2017.06.20-23.22.48:569][131]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PuzzleBP/Maps/Basic' took 0.679
+[2017.06.20-23.22.48:569][131]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.679
+[2017.06.20-23.22.48:573][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid] ([1] browsable assets)...
+[2017.06.20-23.22.48:573][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/PuzzleBP/Blueprints/PuzzleBlockGrid]
+[2017.06.20-23.22.48:887][131]LogSavePackage: Save=248.52ms
+[2017.06.20-23.22.48:887][131]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGrid_Auto14C9BF867428D602C1931518BBA32AD78.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto1.uasset'
+[2017.06.20-23.22.48:912][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Autosaves/Game/PuzzleBP/Blueprints/PuzzleBlockGrid_Auto1.uasset
+[2017.06.20-23.22.48:912][131]LogFileHelpers: Auto-saving content packages took 0.340
+[2017.06.21-15.34.15:987][659]LogHttp:Warning: 000001DA8B94EE00: request failed, libcurl error: 0 (No error)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c87a90 [can pipeline])
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 1 (Re-using existing connection! (#248) with host datarouter.ol.epicgames.com)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.198.55.107) port 443 (#248))
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 3 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 5 (Closing connection 248)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 6 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 7 (  Trying 54.164.193.73...)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 8 (Connected to datarouter.ol.epicgames.com (54.164.193.73) port 443 (#249))
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 9 (ALPN, offering http/1.1)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 10 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 11 (SSL re-using session ID)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 13 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 14 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 17 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.06.21-15.34.17:777][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 20 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 22 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 23 (ALPN, server did not agree to a protocol)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 24 (old SSL session ID is stale, removing)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 25 (Server certificate:)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 26 (	 subject: CN=*.ol.epicgames.com)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 27 (	 start date: Mar 23 00:00:00 2017 GMT)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 28 (	 expire date: Apr 23 12:00:00 2018 GMT)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 29 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 30 (	 issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 31 (	 SSL certificate verify ok.)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 32 (Closing connection 249)
+[2017.06.21-15.34.17:812][659]LogHttp:Warning: 000001DA8B94EE00: libcurl info message cache 33 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.21-17.47.25:612][507]LogHttp:Warning: 000001DAAF7BFE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c87a90 [can pipeline])
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 1 (Re-using existing connection! (#288) with host datarouter.ol.epicgames.com)
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.158.243) port 443 (#288))
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 3 (upload completely sent off: 363 out of 363 bytes)
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 6 (Closing connection 288)
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.21-17.47.25:613][507]LogHttp:Warning: 000001DAAF7BFE80: libcurl info message cache 9 (Closing connection 289)
+[2017.06.21-17.48.06:284][629]LogHttp:Warning: 000001DAAF7BC580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.21-17.48.06:284][629]LogHttp:Warning: 000001DAAF7BC580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.21-17.48.06:348][629]LogHttp:Warning: 000001DAAF7BC580: libcurl info message cache 1 (Closing connection 290)
+[2017.06.21-17.49.06:295][809]LogHttp:Warning: 000001DAAF7BCE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.21-17.49.06:295][809]LogHttp:Warning: 000001DAAF7BCE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.21-17.49.06:295][809]LogHttp:Warning: 000001DAAF7BCE80: libcurl info message cache 1 (Closing connection 291)
+[2017.06.21-17.50.06:308][989]LogHttp:Warning: 000001DAAF7BD000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.21-17.50.06:308][989]LogHttp:Warning: 000001DAAF7BD000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.21-17.50.06:308][989]LogHttp:Warning: 000001DAAF7BD000: libcurl info message cache 1 (Closing connection 292)
+[2017.06.21-17.51.17:614][200]LogHttp:Warning: 000001DAAF7BF880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.21-17.51.17:615][200]LogHttp:Warning: 000001DAAF7BF880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.21-17.51.17:615][200]LogHttp:Warning: 000001DAAF7BF880: libcurl info message cache 1 (Closing connection 293)
+[2017.06.21-18.30.06:383][171]LogHttp:Warning: 000001DAAF7BCD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.21-18.30.06:384][171]LogHttp:Warning: 000001DAAF7BCD00: libcurl info message cache 0 (Connection 299 seems to be dead!)
+[2017.06.21-18.30.06:384][171]LogHttp:Warning: 000001DAAF7BCD00: libcurl info message cache 1 (Closing connection 299)
+[2017.06.21-18.30.06:384][171]LogHttp:Warning: 000001DAAF7BCD00: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.21-18.30.06:384][171]LogHttp:Warning: 000001DAAF7BCD00: libcurl info message cache 3 (Closing connection 300)
+[2017.06.21-19.37.09:085][868]LogStreaming:Warning: Took 166.97ms to ProcessLoadedPackages
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c86ed8 [can pipeline])
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 1 (Re-using existing connection! (#322) with host datarouter.ol.epicgames.com)
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#322))
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 3 (upload completely sent off: 363 out of 363 bytes)
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 6 (Closing connection 322)
+[2017.06.22-01.04.08:434][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.22-01.04.09:147][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 8 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c86ed8 [can pipeline])
+[2017.06.22-01.04.09:147][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.22-01.04.09:148][323]LogHttp:Warning: 000001DA867C9C00: libcurl info message cache 10 (Closing connection 326)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c86ed8 [can pipeline])
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 1 (Re-using existing connection! (#323) with host datarouter.ol.epicgames.com)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#323))
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 3 (upload completely sent off: 363 out of 363 bytes)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 6 (Closing connection 323)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 8 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c86ed8 [can pipeline])
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 9 (Re-using existing connection! (#324) with host datarouter.ol.epicgames.com)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#324))
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 11 (upload completely sent off: 363 out of 363 bytes)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 12 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 13 (Connection died, retrying a fresh connect)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 14 (Closing connection 324)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 15 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 16 (Found bundle for host datarouter.ol.epicgames.com: 0x1da83c86ed8 [can pipeline])
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 17 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.22-01.04.09:186][324]LogHttp:Warning: 000001DA867C9780: libcurl info message cache 18 (Closing connection 325)
+[2017.06.22-01.46.38:544][996]LogSavePackage: Save=373.83ms
+[2017.06.22-01.46.38:544][996]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/PuzzleBlockGridC03F99BB4C70E8A631719285A5F096F9.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset'
+[2017.06.22-01.46.38:582][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Blueprints/PuzzleBlockGrid.uasset
+[2017.06.22-01.46.51:891][996]LogSavePackage: Save=1481.50ms
+[2017.06.22-01.46.51:891][996]LogSavePackage: Moving '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Basic2545BF574706E199E07D1A837E0D8814.tmp' to '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/Basic.umap'
+[2017.06.22-01.46.52:092][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/PuzzleBP/Maps/Basic.umap
+[2017.06.22-01.46.52:225][996]LogFileHelpers: Saving map 'Basic' took 13.638
+[2017.06.22-01.46.52:621][996]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.22-01.46.56:332][997]Cmd: QUIT_EDITOR
+[2017.06.22-01.46.59:207][997]LogExit: Preparing to exit.
+[2017.06.22-01.47.04:453][997]LogDirectoryWatcher: A directory notification for 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/' was aborted.
+[2017.06.22-01.47.07:601][997]LogExit: Editor shut down
+[2017.06.22-01.47.07:791][997]LogExit: Transaction tracking system shut down
+[2017.06.22-01.47.18:391][997]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.22-01.47.18:392][997]LogExit: Object subsystem successfully closed.
+[2017.06.22-01.47.19:593][997]LogD3D11RHI: Shutdown
+[2017.06.22-01.47.19:594][997]LogD3D11RHI: CleanupD3DDevice
+[2017.06.22-01.47.21:397][997]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.22-01.47.27:025][997]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2017.06.22-01.47.27:242][997]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.06.22-01.47.27:243][997]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.06.22-01.47.27:243][997]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.06.22-01.47.27:422][997]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.22-01.47.27:450][997]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.22-01.47.27:533][997]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.22-01.47.27:568][997]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.22-01.47.27:872][997]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.22-01.47.28:299][997]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.22-01.47.28:299][997]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.22-01.47.28:299][997]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.22-01.47.28:299][997]LogDirectoryWatcher: A directory notification for 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/Collections/' was aborted.
+[2017.06.22-01.47.28:300][997]LogDirectoryWatcher: A directory notification for 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/Developers/Teresa/Collections/' was aborted.
+[2017.06.22-01.47.28:300][997]LogDirectoryWatcher: A directory notification for 'C:/Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Saved/Collections/' was aborted.
+[2017.06.22-01.47.28:301][997]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.22-01.47.28:371][997]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.22-01.47.28:371][997]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.22-01.47.28:410][997]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.22-01.47.28:429][997]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.22-01.47.28:429][997]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.22-01.47.28:429][997]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.22-01.47.28:435][997]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.22-01.47.28:435][997]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.22-01.47.28:440][997]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.22-01.47.28:449][997]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.22-01.47.28:449][997]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.22-01.47.28:462][997]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.22-01.47.28:499][997]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.22-01.47.28:546][997]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.22-01.47.28:557][997]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.22-01.47.28:634][997]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.22-01.47.28:634][997]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.22-01.47.28:634][997]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.22-01.47.28:634][997]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.22-01.47.28:634][997]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.22-01.47.28:652][997]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.22-01.47.28:684][997]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.22-01.47.28:712][997]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.22-01.47.28:731][997]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.22-01.47.28:733][997]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.22-01.47.28:739][997]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.22-01.47.28:739][997]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.22-01.47.28:746][997]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.22-01.47.28:826][997]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.22-01.47.28:826][997]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.22-01.47.28:826][997]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.22-01.47.28:897][997]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.22-01.47.28:904][997]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.22-01.47.28:911][997]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.22-01.47.28:923][997]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.22-01.47.28:923][997]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.22-01.47.28:943][997]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.22-01.47.28:967][997]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.22-01.47.28:967][997]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.22-01.47.28:974][997]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.22-01.47.28:996][997]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.22-01.47.28:996][997]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.22-01.47.28:998][997]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.22-01.47.28:999][997]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.22-01.47.28:999][997]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.22-01.47.29:030][997]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.22-01.47.29:030][997]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.22-01.47.29:047][997]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.22-01.47.29:064][997]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.22-01.47.29:075][997]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.22-01.47.29:086][997]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.22-01.47.29:095][997]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.22-01.47.29:192][997]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.22-01.47.29:220][997]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.22-01.47.29:240][997]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.22-01.47.29:249][997]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.22-01.47.29:249][997]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.22-01.47.29:268][997]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.22-01.47.29:269][997]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.22-01.47.29:307][997]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.22-01.47.29:307][997]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.22-01.47.29:315][997]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.22-01.47.29:419][997]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.22-01.47.29:419][997]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.22-01.47.29:419][997]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.22-01.47.29:463][997]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.22-01.47.29:533][997]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.22-01.47.29:548][997]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.22-01.47.29:555][997]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.22-01.47.29:555][997]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.22-01.47.29:555][997]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.22-01.47.29:555][997]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.22-01.47.29:555][997]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.22-01.47.29:636][997]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.22-01.47.29:637][997]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.22-01.47.29:637][997]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.22-01.47.29:637][997]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.22-01.47.29:637][997]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.22-01.47.29:637][997]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.22-01.47.29:663][997]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.22-01.47.29:664][997]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.22-01.47.29:669][997]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.22-01.47.29:804][997]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.22-01.47.29:852][997]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.22-01.47.29:852][997]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.22-01.47.29:857][997]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.22-01.47.29:857][997]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.22-01.47.29:857][997]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.22-01.47.29:857][997]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.22-01.47.29:857][997]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.22-01.47.29:857][997]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.22-01.47.29:857][997]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.22-01.47.29:869][997]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.22-01.47.29:870][997]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.22-01.47.29:870][997]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.22-01.47.29:886][997]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.22-01.47.29:899][997]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.22-01.47.29:918][997]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.22-01.47.29:926][997]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.22-01.47.29:927][997]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.22-01.47.29:928][997]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.22-01.47.29:928][997]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.22-01.47.29:928][997]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.22-01.47.29:928][997]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.22-01.47.29:990][997]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.22-01.47.30:007][997]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.22-01.47.30:012][997]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.22-01.47.30:025][997]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.22-01.47.30:025][997]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.22-01.47.30:031][997]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.22-01.47.30:074][997]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.22-01.47.30:120][997]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.22-01.47.30:136][997]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.22-01.47.30:136][997]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.22-01.47.30:136][997]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.22-01.47.30:136][997]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.22-01.47.30:161][997]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.22-01.47.30:172][997]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.22-01.47.30:241][997]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.22-01.47.30:274][997]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.22-01.47.30:286][997]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.22-01.47.30:307][997]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.22-01.47.30:326][997]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.22-01.47.30:326][997]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.22-01.47.30:326][997]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.22-01.47.30:326][997]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.22-01.47.30:326][997]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.22-01.47.30:427][997]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.22-01.47.30:529][997]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.22-01.47.30:546][997]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.22-01.47.30:554][997]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.22-01.47.30:554][997]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.22-01.47.30:601][997]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.22-01.47.30:601][997]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.22-01.47.30:633][997]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.22-01.47.30:633][997]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.22-01.47.30:633][997]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.22-01.47.30:672][997]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.22-01.47.30:742][997]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.22-01.47.30:742][997]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.22-01.47.30:771][997]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.22-01.47.30:771][997]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.22-01.47.30:775][997]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.22-01.47.30:786][997]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.22-01.47.30:797][997]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.22-01.47.30:798][997]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.22-01.47.30:850][997]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.22-01.47.30:850][997]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.22-01.47.30:873][997]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.22-01.47.30:888][997]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.22-01.47.30:930][997]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.22-01.47.30:957][997]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.22-01.47.30:984][997]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.22-01.47.30:984][997]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.22-01.47.31:022][997]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.22-01.47.31:050][997]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.22-01.47.31:050][997]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.22-01.47.31:099][997]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.22-01.47.31:106][997]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.22-01.47.31:112][997]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.22-01.47.31:112][997]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.22-01.47.31:112][997]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.22-01.47.31:112][997]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.22-01.47.31:516][997]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.22-01.47.31:516][997]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.22-01.47.31:670][997]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.22-01.47.31:670][997]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.22-01.47.31:671][997]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Teresa/Documents/Unreal Projects/CubeFarmBP/Content/' was aborted.
+[2017.06.22-01.47.31:679][997]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.22-01.47.31:680][997]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.22-01.47.31:680][997]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.22-01.47.31:697][997]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.22-01.47.31:714][997]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.22-01.47.31:728][997]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.22-01.47.31:734][997]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.22-01.47.31:745][997]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.22-01.47.31:870][997]LogDerivedDataCache: Shutdown
+[2017.06.22-01.47.31:870][997]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.22-01.47.31:888][997]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.22-01.47.31:923][997]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.22-01.47.31:936][997]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.22-01.47.31:942][997]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.22-01.47.31:951][997]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.22-01.47.31:966][997]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.22-01.47.31:966][997]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.22-01.47.31:966][997]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.22-01.47.31:966][997]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.22-01.47.31:998][997]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.22-01.47.31:998][997]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.22-01.47.31:998][997]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.22-01.47.31:998][997]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.22-01.47.31:998][997]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.22-01.47.31:998][997]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.22-01.47.31:998][997]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.22-01.47.31:999][997]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.22-01.47.31:999][997]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.22-01.47.31:999][997]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.22-01.47.32:012][997]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.22-01.47.32:013][997]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.22-01.47.32:013][997]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.22-01.47.32:030][997]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.22-01.47.32:037][997]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.22-01.47.32:043][997]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.22-01.47.32:043][997]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.22-01.47.32:050][997]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.22-01.47.32:059][997]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.22-01.47.32:071][997]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.22-01.47.32:080][997]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.22-01.47.32:080][997]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.22-01.47.32:092][997]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.22-01.47.32:109][997]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.22-01.47.32:110][997]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.22-01.47.32:110][997]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.22-01.47.32:110][997]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.22-01.47.32:110][997]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.22-01.47.32:110][997]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.22-01.47.32:111][997]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.22-01.47.32:112][997]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.22-01.47.32:112][997]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.22-01.47.32:113][997]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.22-01.47.32:132][997]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.22-01.47.32:146][997]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.22-01.47.32:146][997]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.22-01.47.32:156][997]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.22-01.47.32:156][997]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.22-01.47.32:156][997]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.22-01.47.32:166][997]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.22-01.47.32:177][997]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.22-01.47.32:202][997]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.22-01.47.32:202][997]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.22-01.47.32:202][997]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3AF5DB75-4A4B-490E-80D5-159BCFD1F479%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1f4fd3b649a9ea6198dbec9d5ecff327%7C5a71cf834d674fa08c0f5af25d2cbf19%7C2f43e0af-5d89-48a4-a3db-6fa5a6f46792&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.22-01.47.32:290][997]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.22-01.47.32:381][997]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.22-01.47.32:395][997]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.22-01.47.32:404][997]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.22-01.47.32:408][997]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.22-01.47.32:424][997]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.22-01.47.32:439][997]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.22-01.47.32:439][997]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.22-01.47.32:439][997]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.22-01.47.32:568][997]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.22-01.47.32:603][997]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.22-01.47.32:603][997]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.22-01.47.32:603][997]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.22-01.47.32:603][997]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.22-01.47.32:603][997]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.22-01.47.32:603][997]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.22-01.47.32:610][997]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.22-01.47.32:619][997]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.22-01.47.32:629][997]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.22-01.47.32:702][997]LogExit: Exiting.
+[2017.06.22-01.47.32:927][997]Log file closed, 06/21/17 18:47:32
